@@ -9,7 +9,7 @@
 
 include(FindPackageHandleStandardArgs)
 
-get_filename_component( Flir_ROOT "/opt/spinnaker" ABSOLUTE )
+set(Flir_ROOT "/opt/spinnaker")
 
 # Include dir
 find_path(Flir_INCLUDE_DIR 
